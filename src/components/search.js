@@ -1,5 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
 
+/**
+ * Allows a user to search for a city by name.
+ * Moves the marker if successful, else shows error.
+ * 
+ * @param {*} props position of the marker 
+ * @returns 
+ */
 export default function SearchBar(props) {
     const { position, setPosition } = props;
     const [innerSearch, setInnerSearch] = useState("");
@@ -25,7 +32,6 @@ export default function SearchBar(props) {
             setMounted(true);
         }
     }, [test]);
-
 
     return (
         <div className="search-bar">
