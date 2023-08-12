@@ -14,6 +14,11 @@ const baseMarker = L.icon({
   popupAnchor: [0, -32],
 });
 
+/**
+ * Main application page. Contains the map, search and title.
+ * 
+ * @returns 
+ */
 export default function App() {
   const [position, setPosition] = useState([51.505, -0.09])
 
