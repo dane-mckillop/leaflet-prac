@@ -25,6 +25,13 @@ export default function SearchBar(props) {
         setTest(innerSearch);
     };
 
+    /**
+     * Checks if the application has mounted, then outputs the results of test.
+     * 
+     * @todo when "innersearch" state changes, update position location. Check if innersearch is a valid location.
+     * @param {*} props position of the marker
+     * @returns
+     */
     useEffect(() => {
         if (isMounted) {
             console.log(test);
