@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Beijing",
+        "country": "China",
+        "latitude": 39.9042,
+        "longitude": 116.4074
+    },
+    {
+        "name": "Cairo",
+        "country": "Egypt",
+        "latitude": 30.0444,
+        "longitude": 31.2357
+    },
+    {
+        "name": "Moscow",
+        "country": "Russia",
+        "latitude": 55.7558,
+        "longitude": 37.6173
+    },
+    {
+        "name": "New Delhi",
+        "country": "India",
+        "latitude": 28.6139,
+        "longitude": 77.2090
+    },
+    {
+        "name": "Paris",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522
+    },
+    {
+        "name": "Rio Di Janeiro",
+        "country": "Brazil",
+        "latitude": -15.8267,
+        "longitude": -47.9218
+    },
+    {
+        "name": "Rome",
+        "country": "Italy",
+        "latitude": 41.9028,
+        "longitude": 12.4964
+    },
+    {
+        "name": "Tokyo",
+        "country": "Japan",
+        "latitude": 35.6895,
+        "longitude": 139.6917
+    },
+    {
+        "name": "Washington D.C.",
+        "country": "United States of America",
+        "latitude": 38.8951,
+        "longitude": -77.0364
+    }
+]
