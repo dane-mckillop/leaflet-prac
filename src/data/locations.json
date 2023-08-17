@@ -12,6 +12,12 @@
         "longitude": 31.2357
     },
     {
+        "name": "Canberra",
+        "country": "Australia",
+        "latitude": -35.2809,
+        "longitude": 149.1300
+    },
+    {
         "name": "Moscow",
         "country": "Russia",
         "latitude": 55.7558,

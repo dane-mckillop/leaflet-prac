@@ -11,18 +11,19 @@ export default function SearchBar(props) {
     const { position, setPosition } = props;
     const [innerSearch, setInnerSearch] = useState("");
     const [isMounted, setMounted] = useState(false);
-    const [test, setTest] = useState("");
     const searchInputRef = useRef(null);
 
     const handleKeyDown = (event) => {
         if (event.key === 'Enter' && event.target === searchInputRef.current) {
-            setPosition(innerSearch);
+            handleSearch();
         }
     };
 
     //onClick handler rerenders endlessly without this function
     const handleSearch = () => {
-        setTest(innerSearch);
+        fetch('../data/locations.json')
+            .then((response) => response.json())
+            .then((json) => console.log(json));
     };
 
     /**
@@ -34,11 +35,12 @@ export default function SearchBar(props) {
      */
     useEffect(() => {
         if (isMounted) {
-            console.log(test);
+            setPosition('')
+            console.log(position);
         } else {
             setMounted(true);
         }
-    }, [test]);
+    }, [position]);
 
     return (
         <div className="search-bar">

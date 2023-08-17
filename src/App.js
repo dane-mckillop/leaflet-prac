@@ -23,9 +23,9 @@ export default function App() {
   const [position, setPosition] = useState([51.505, -0.09])
 
   return (
-    <div>
-      <SearchBar position={position} setPosition={setPosition}/>
-      <MapContainer center={position} zoom={13} style={{ height: '400px' }}>
+    <div className="app-container">
+      <SearchBar position={position} setPosition={setPosition} className="search-bar"/>
+      <MapContainer center={position} zoom={13} className="map-container">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="..."
