@@ -6,6 +6,7 @@ import { useState, useRef, useEffect } from 'react';
  * 
  * @param {*} props position of the marker 
  * @returns 
+ * @todo implement event handling for string search of a location
  */
 export default function SearchBar(props) {
     const { position, setPosition } = props;
