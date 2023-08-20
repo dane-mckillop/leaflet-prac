@@ -14,6 +14,7 @@ export default function SearchBar(props) {
     const [isMounted, setMounted] = useState(false);
     const searchInputRef = useRef(null);
 
+    //activates the onClick handler if the user presses enter.
     const handleKeyDown = (event) => {
         if (event.key === 'Enter' && event.target === searchInputRef.current) {
             handleSearch();
