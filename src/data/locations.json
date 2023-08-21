@@ -30,6 +30,12 @@
         "longitude": -47.9218
     },
     {
+        "name": "Brussels",
+        "country": "Belgium",
+        "latitude": 50.8503,
+        "longitude": 4.3517
+    },
+    {
         "name": "Cairo",
         "country": "Egypt",
         "latitude": 30.0444,
@@ -40,6 +46,12 @@
         "country": "Australia",
         "latitude": -35.2809,
         "longitude": 149.1300
+    },
+    {
+        "name": "Jakarta",
+        "country": "Indonesia",
+        "latitude": -6.2088,
+        "longitude": 106.8456
     },
     {
         "name": "London",
