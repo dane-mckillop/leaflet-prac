@@ -13,6 +13,7 @@ export default function SearchBar(props) {
     const [innerSearch, setInnerSearch] = useState("");
     const [isMounted, setMounted] = useState(false);
     const searchInputRef = useRef(null);
+    const defaultPosition = [51.505, -0.09];
 
     //activates the onClick handler if the user presses enter.
     const handleKeyDown = (event) => {
@@ -22,10 +23,15 @@ export default function SearchBar(props) {
     };
 
     //onClick handler rerenders endlessly without this function
+    //include set position 
     const handleSearch = () => {
-        fetch('../data/locations.json')
-            .then((response) => response.json())
-            .then((json) => console.log(json));
+        fetch('../data/locations.json')  // Adjust the path as needed
+            .then((json) => {
+                console.log(json);
+            })
+            .catch((error) => {
+                console.error('Error fetching data:', error);
+            });
     };
 
     /**
@@ -37,7 +43,6 @@ export default function SearchBar(props) {
      */
     useEffect(() => {
         if (isMounted) {
-            setPosition('')
             console.log(position);
         } else {
             setMounted(true);

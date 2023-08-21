@@ -20,7 +20,8 @@ const baseMarker = L.icon({
  * @returns 
  */
 export default function App() {
-  const [position, setPosition] = useState([51.505, -0.09])
+  const defaultPosition = [51.505, -0.09];
+  const [position, setPosition] = useState(defaultPosition)
 
   return (
     <div className="app-container">
