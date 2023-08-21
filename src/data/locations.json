@@ -6,6 +6,12 @@
         "longitude": 32.8597
     },
     {
+        "name": "Athens",
+        "country": "Greece",
+        "latitude": 37.9838,
+        "longitude": 23.7275
+    },
+    {
         "name": "Bangkok",
         "country": "Thailand",
         "latitude": 13.7563,
@@ -24,6 +30,12 @@
         "longitude": 13.4050
     },
     {
+        "name": "Bogotá",
+        "country": "Colombia",
+        "latitude": 4.7109,
+        "longitude": -74.0721
+    },
+    {
         "name": "Brasilia",
         "country": "Brazil",
         "latitude": -15.8267,
@@ -36,10 +48,22 @@
         "longitude": 4.3517
     },
     {
+        "name": "Budapest",
+        "country": "Hungary",
+        "latitude": 47.4979,
+        "longitude": 19.0402
+    },
+    {
         "name": "Cairo",
         "country": "Egypt",
         "latitude": 30.0444,
         "longitude": 31.2357
+    },
+    {
+        "name": "Caracas",
+        "country": "Venezuela",
+        "latitude": 10.4806,
+        "longitude": -66.9036
     },
     {
         "name": "Canberra",
@@ -48,10 +72,40 @@
         "longitude": 149.1300
     },
     {
+        "name": "Copenhagen",
+        "country": "Denmark",
+        "latitude": 55.6761,
+        "longitude": 12.5683
+    },
+    {
+        "name": "Dublin",
+        "country": "Ireland",
+        "latitude": 53.3498,
+        "longitude": -6.2603
+    },
+    {
+        "name": "Helsinki",
+        "country": "Finland",
+        "latitude": 60.1695,
+        "longitude": 24.9354
+    },
+    {
         "name": "Jakarta",
         "country": "Indonesia",
         "latitude": -6.2088,
         "longitude": 106.8456
+    },
+    {
+        "name": "Lima",
+        "country": "Peru",
+        "latitude": -12.0464,
+        "longitude": -77.0428
+    },
+    {
+        "name": "Lisbon",
+        "country": "Portugal",
+        "latitude": 38.7223,
+        "longitude": -9.1393
     },
     {
         "name": "London",
@@ -78,6 +132,12 @@
         "longitude": 37.6173
     },
     {
+        "name": "Nairobi",
+        "country": "Kenya",
+        "latitude": -1.2921,
+        "longitude": 36.8219
+    },
+    {
         "name": "New Delhi",
         "country": "India",
         "latitude": 28.6139,
@@ -90,10 +150,22 @@
         "longitude": -75.6972
     },
     {
+        "name": "Oslo",
+        "country": "Norway",
+        "latitude": 59.9139,
+        "longitude": 10.7522
+    },
+    {
         "name": "Paris",
         "country": "France",
         "latitude": 48.8566,
         "longitude": 2.3522
+    },
+    {
+        "name": "Prague",
+        "country": "Czech Republic",
+        "latitude": 50.0755,
+        "longitude": 14.4378
     },
     {
         "name": "Rome",
@@ -102,10 +174,22 @@
         "longitude": 12.4964
     },
     {
+        "name": "Santiago",
+        "country": "Chile",
+        "latitude": -33.4489,
+        "longitude": -70.6693
+    },
+    {
         "name": "Seoul",
         "country": "South Korea",
         "latitude": 37.5665,
         "longitude": 126.9780
+    },
+    {
+        "name": "Stockholm",
+        "country": "Sweden",
+        "latitude": 59.3293,
+        "longitude": 18.0686
     },
     {
         "name": "Tokyo",
@@ -114,9 +198,27 @@
         "longitude": 139.6917
     },
     {
+        "name": "Vienna",
+        "country": "Austria",
+        "latitude": 48.2082,
+        "longitude": 16.3738
+    },
+    {
+        "name": "Warsaw",
+        "country": "Poland",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+    },
+    {
         "name": "Washington D.C.",
         "country": "United States of America",
         "latitude": 38.8951,
         "longitude": -77.0364
+    },
+    {
+        "name": "Wellington",
+        "country": "New Zealand",
+        "latitude": -41.2865,
+        "longitude": 174.7762
     }
 ]
