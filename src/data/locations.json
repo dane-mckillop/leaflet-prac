@@ -192,6 +192,12 @@
         "longitude": 18.0686
     },
     {
+        "name": "Taipei",
+        "country": "Taiwan",
+        "latitude": 25.0330,
+        "longitude": 121.5654
+    },
+    {
         "name": "Tokyo",
         "country": "Japan",
         "latitude": 35.6895,

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import iconURL from "./icons/placeholder.png"
@@ -22,6 +22,13 @@ const baseMarker = L.icon({
 export default function App() {
   const defaultPosition = [51.505, -0.09];
   const [position, setPosition] = useState(defaultPosition)
+  const markerRef = useRef(null);
+  
+  useEffect(() => {
+      if (markerRef.current) {
+          markerRef.current.leafletElement.setLatLng(position);
+      }
+  }, [position]);
 
   return (
     <div className="app-container">

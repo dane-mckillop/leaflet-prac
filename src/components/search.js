@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import data from "../data/locations.json";
 
 /**
  * Allows a user to search for a city by name.
@@ -23,15 +24,17 @@ export default function SearchBar(props) {
     };
 
     //onClick handler rerenders endlessly without this function
-    //include set position 
+    //include setPosition. More ideal version uses remote API service.
+    //consider hosting JSON as remote file for practice.
     const handleSearch = () => {
-        fetch('../data/locations.json')  // Adjust the path as needed
-            .then((json) => {
-                console.log(json);
-            })
-            .catch((error) => {
-                console.error('Error fetching data:', error);
-            });
+        const locationToSearch = innerSearch.trim();
+        const foundLocation = data.find(location => location.name.toLowerCase() === locationToSearch.toLowerCase());
+    
+        if (foundLocation) {
+            setPosition([foundLocation.latitude, foundLocation.longitude]);
+        } else {
+            console.log("Location not found.");
+        }
     };
 
     /**
