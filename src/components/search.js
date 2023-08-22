@@ -10,7 +10,7 @@ import data from "../data/locations.json";
  * @todo implement event handling for string search of a location
  */
 export default function SearchBar(props) {
-    const { position, setPosition } = props;
+    const { position, setPosition, city, setCity } = props;
     const [innerSearch, setInnerSearch] = useState("");
     const [isMounted, setMounted] = useState(false);
     const searchInputRef = useRef(null);
@@ -28,10 +28,17 @@ export default function SearchBar(props) {
     //consider hosting JSON as remote file for practice.
     const handleSearch = () => {
         const locationToSearch = innerSearch.trim();
-        const foundLocation = data.find(location => location.name.toLowerCase() === locationToSearch.toLowerCase());
+        const foundLocation = data.find(location => {
+            const lowerCaseSearch = locationToSearch.toLowerCase();
+            return (
+              location.name.toLowerCase() === lowerCaseSearch ||
+              location.country.toLowerCase() === lowerCaseSearch
+            );
+          });
     
         if (foundLocation) {
             setPosition([foundLocation.latitude, foundLocation.longitude]);
+            setCity(`${foundLocation.city}`);
         } else {
             console.log("Location not found.");
         }
