@@ -402,16 +402,166 @@
         "longitude": 177.6493
     },
     {
+        "name": "Gaborone",
+        "country": "Botswana",
+        "latitude": -24.6541,
+        "longitude": 25.9087
+    },
+    {
+        "name": "George Town",
+        "country": "Cayman Islands",
+        "latitude": 19.3022,
+        "longitude": -81.3860
+    },
+    {
+        "name": "Georgetown",
+        "country": "Guyana",
+        "latitude": 6.8013,
+        "longitude": -58.1551
+    },
+    {
+        "name": "Gibraltar",
+        "country": "Gibraltar",
+        "latitude": 36.1377,
+        "longitude": -5.3453
+    },
+    {
+        "name": "Guatemala City",
+        "country": "Guatemala",
+        "latitude": 14.6349,
+        "longitude": -90.5069
+    },
+    {
+        "name": "Hagatna",
+        "country": "Guam",
+        "latitude": 13.4767,
+        "longitude": 144.7516
+    },
+    {
+        "name": "Hamilton",
+        "country": "Bermuda",
+        "latitude": 32.2949,
+        "longitude": -64.7839
+    },
+    {
+        "name": "Hanoi",
+        "country": "Vietnam",
+        "latitude": 21.0285,
+        "longitude": 105.8542
+    },
+    {
+        "name": "Harare",
+        "country": "Zimbabwe",
+        "latitude": -17.8292,
+        "longitude": 31.0522
+    },
+    {
         "name": "Helsinki",
         "country": "Finland",
         "latitude": 60.1695,
         "longitude": 24.9354
     },
     {
+        "name": "Honiara",
+        "country": "Solomon Islands",
+        "latitude": -9.4331,
+        "longitude": 159.9498
+    },
+    {
+        "name": "Islamabad",
+        "country": "Pakistan",
+        "latitude": 33.6844,
+        "longitude": 73.0479
+    },
+    {
         "name": "Jakarta",
         "country": "Indonesia",
         "latitude": -6.2088,
         "longitude": 106.8456
+    },
+    {
+        "name": "Jamestown",
+        "country": "Saint Helena",
+        "latitude": -15.9384,
+        "longitude": -5.7161
+    },
+    {
+        "name": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.7683,
+        "longitude": 35.2137
+    },
+    {
+        "name": "Kabul",
+        "country": "Afghanistan",
+        "latitude": 34.5553,
+        "longitude": 69.2075
+    },
+    {
+        "name": "Kampala",
+        "country": "Uganda",
+        "latitude": 0.3136,
+        "longitude": 32.5811
+    },
+    {
+        "name": "Kathmandu",
+        "country": "Nepal",
+        "latitude": 27.7172,
+        "longitude": 85.3240
+    },
+    {
+        "name": "Khartoum",
+        "country": "Sudan",
+        "latitude": 15.5007,
+        "longitude": 32.5599
+    },
+    {
+        "name": "Kiev",
+        "country": "Ukraine",
+        "latitude": 50.4501,
+        "longitude": 30.5234
+    },
+    {
+        "name": "Kigali",
+        "country": "Rwanda",
+        "latitude": -1.9499,
+        "longitude": 30.0589
+    },
+    {
+        "name": "Kingston",
+        "country": "Jamaica",
+        "latitude": 17.9927,
+        "longitude": -76.7920
+    },
+    {
+        "name": "Kinshasa",
+        "country": "Democratic Republic of the Congo",
+        "latitude": -4.3250,
+        "longitude": 15.3222
+    },
+    {
+        "name": "Kuala Lumpur",
+        "country": "Malaysia",
+        "latitude": 3.1390,
+        "longitude": 101.6869
+    },
+    {
+        "name": "Kuwait City",
+        "country": "Kuwait",
+        "latitude": 29.3759,
+        "longitude": 47.9774
+    },
+    {
+        "name": "Libreville",
+        "country": "Gabon",
+        "latitude": 0.4162,
+        "longitude": 9.4673
+    },
+    {
+        "name": "Lilongwe",
+        "country": "Malawi",
+        "latitude": -13.9626,
+        "longitude": 33.7741
     },
     {
         "name": "Lima",
@@ -426,10 +576,46 @@
         "longitude": -9.1393
     },
     {
+        "name": "Ljubljana",
+        "country": "Slovenia",
+        "latitude": 46.0569,
+        "longitude": 14.5058
+    },
+    {
+        "name": "Lobamba",
+        "country": "Eswatini",
+        "latitude": -26.4694,
+        "longitude": 31.2035
+    },
+    {
+        "name": "Lome",
+        "country": "Togo",
+        "latitude": 6.1228,
+        "longitude": 1.2255
+    },
+    {
         "name": "London",
         "country": "United Kingdom",
         "latitude": 51.5074,
         "longitude": -0.1278
+    },
+    {
+        "name": "Luanda",
+        "country": "Angola",
+        "latitude": -8.8137,
+        "longitude": 13.2410
+    },
+    {
+        "name": "Lusaka",
+        "country": "Zambia",
+        "latitude": -15.3875,
+        "longitude": 28.3228
+    },
+    {
+        "name": "Luxembourg",
+        "country": "Luxembourg",
+        "latitude": 49.6117,
+        "longitude": 6.1300
     },
     {
         "name": "Madrid",
