@@ -930,10 +930,46 @@
         "longitude": 125.7625
     },
     {
+        "name": "Quito",
+        "country": "Ecuador",
+        "latitude": -0.2295,
+        "longitude": -78.5243
+    },
+    {
+        "name": "Rabat",
+        "country": "Morocco",
+        "latitude": 34.0209,
+        "longitude": -6.8417
+    },
+    {
+        "name": "Reykjavik",
+        "country": "Iceland",
+        "latitude": 64.1265,
+        "longitude": -21.8174
+    },
+    {
+        "name": "Riga",
+        "country": "Latvia",
+        "latitude": 56.9496,
+        "longitude": 24.1052
+    },
+    {
+        "name": "Riyadh",
+        "country": "Saudi Arabia",
+        "latitude": 24.7136,
+        "longitude": 46.6753
+    },
+    {
         "name": "Rome",
         "country": "Italy",
         "latitude": 41.9028,
         "longitude": 12.4964
+    },
+    {
+        "name": "Roseau",
+        "country": "Dominica",
+        "latitude": 15.3010,
+        "longitude": -61.3886
     },
     {
         "name": "Santiago",
