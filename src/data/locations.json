@@ -1164,6 +1164,12 @@
         "longitude": 10.1815
     },
     {
+        "name": "Ulaanbaatar",
+        "country": "Mongolia",
+        "latitude": 47.9183,
+        "longitude": 106.9176
+    },
+    {
         "name": "Vienna",
         "country": "Austria",
         "latitude": 48.2082,
