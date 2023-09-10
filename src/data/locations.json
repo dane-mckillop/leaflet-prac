@@ -1218,7 +1218,7 @@
         "longitude": 21.0122
     },
     {
-        "name": "Washington D.C.",
+        "name": "Washington, D.C.",
         "country": "United States of America",
         "latitude": 38.8951,
         "longitude": -77.0364
@@ -1228,5 +1228,11 @@
         "country": "New Zealand",
         "latitude": -41.2865,
         "longitude": 174.7762
+    },
+    {
+        "name": "Windhoek",
+        "country": "Namibia",
+        "latitude": -22.5597,
+        "longitude": 17.0832
     }
 ]
