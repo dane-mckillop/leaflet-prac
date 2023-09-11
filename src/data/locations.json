@@ -1234,5 +1234,29 @@
         "country": "Namibia",
         "latitude": -22.5597,
         "longitude": 17.0832
+    },
+    {
+        "name": "Yaoundé",
+        "country": "Cameroon",
+        "latitude": 3.848,
+        "longitude": 11.5021
+    },
+    {
+        "name": "Yerevan",
+        "country": "Armenia",
+        "latitude": 40.1792,
+        "longitude": 44.4991
+    },
+    {
+        "name": "Yaren",
+        "country": "Nauru",
+        "latitude": -0.5477,
+        "longitude": 166.9209
+    },
+    {
+        "name": "Zagreb",
+        "country": "Croatia",
+        "latitude": 45.8150,
+        "longitude": 15.9819
     }
 ]
