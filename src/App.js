@@ -22,8 +22,11 @@ const baseMarker = L.icon({
 export default function App() {
   const defaultPosition = [51.5074, -0.1278];
   const defaultCity = "London";
+  const defaultCountry = "United Kingdom";
+  const baseZoom = 13;
   const [position, setPosition] = useState(defaultPosition)
   const [city, setCity] = useState(defaultCity);
+  const [country, setCountry] = useState(defaultCountry);
   const markerRef = useRef(null);
   const mapRef = useRef(null);
 
@@ -32,14 +35,14 @@ export default function App() {
       markerRef.current.leafletElement.setLatLng(position);
     }
     if (mapRef.current) {
-      mapRef.current.setView(position);
+      mapRef.current.setView(position, baseZoom);
     }
   }, [position]);
 
   return (
     <div className="app-container">
-      <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} className="search-bar"/>
-      <MapContainer center={position} zoom={13} ref={mapRef} className="map-container">
+      <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} className="search-bar"/>
+      <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="..."
