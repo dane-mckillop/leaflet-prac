@@ -1,11 +1,12 @@
-//Import the base news API url here
+import API_URL from '../components/config.js';
 
 //CHANGE THE BELOW SUCH THAT IT IMPORTS NEWS ON SEARCH
-export default function FetchNews(country) {
-    //let url = API_URL + `/some/changes`;
+//Add country codes in JSON.
+export default function fetchNews(country) {
+    let url = API_URL + `?country=` + ``;
 
-    //return fetch(url).
-        //.then(response => {
-            //return response.json()})
-        //.then(news => { return news});
+    return fetch(url)
+        .then(response => {
+            return response.json()})
+        .then(news => { return news});
 }

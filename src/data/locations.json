@@ -2,102 +2,119 @@
     {
         "name": "Abu Dhabi",
         "country": "United Arab Emirates",
+        "code": "ae",
         "latitude": 24.4539,
         "longitude": 54.3773
     },
     {
         "name": "Abuja",
         "country": "Nigeria",
+        "code": "ng",
         "latitude": 9.0579,
         "longitude": 7.4951
     },
     {
         "name": "Accra",
         "country": "Ghana",
+        "code": "gh",
         "latitude": 5.5600,
         "longitude": -0.2057
     },
     {
         "name": "Addis Ababa",
         "country": "Ethiopia",
+        "code": "et",
         "latitude": 9.0320,
         "longitude": 38.7465
     },
     {
         "name": "Algiers",
         "country": "Algeria",
+        "code": "dz",
         "latitude": 36.7372,
         "longitude": 3.0865
     },
     {
         "name": "Amman",
         "country": "Jordan",
+        "code": "jo",
         "latitude": 31.9497,
         "longitude": 35.9325
     },
     {
         "name": "Amsterdam",
         "country": "Netherlands",
+        "code": "nl",
         "latitude": 52.3676,
         "longitude": 4.9041
     },
     {
         "name": "Andorra la Vella",
         "country": "Andorra",
+        "code": "ad",
         "latitude": 42.5063,
         "longitude": 1.5218
     },
     {
         "name": "Ankara",
         "country": "Turkey",
+        "code": "tr",
         "latitude": 39.9334,
         "longitude": 32.8597
     },
     {
         "name": "Antananarivo",
         "country": "Madagascar",
+        "code": "mg",
         "latitude": -18.8792,
         "longitude": 47.5079
     },
     {
         "name": "Apia",
         "country": "Samoa",
+        "code": "ws",
         "latitude": -13.8339,
         "longitude": -171.7691
     },
     {
         "name": "Ashgabat",
         "country": "Turkmenistan",
+        "code": "tm",
         "latitude": 37.9601,
         "longitude": 58.3252
     },
     {
         "name": "Asmara",
         "country": "Eritrea",
+        "code": "er",
         "latitude": 15.3229,
         "longitude": 38.9251
     },
     {
         "name": "Astana",
         "country": "Kazakhstan",
+        "code": "kz",
         "latitude": 51.1694,
         "longitude": 71.4491
     },
     {
         "name": "Asuncion",
         "country": "Paraguay",
+        "code": "py",
         "latitude": -25.2637,
         "longitude": -57.5759
     },
     {
         "name": "Athens",
         "country": "Greece",
+        "code": "gr",
         "latitude": 37.9838,
         "longitude": 23.7275
     },
     {
         "name": "Avarua",
         "country": "Cook Islands",
+        "code": "ck",
         "latitude": -21.2075,
         "longitude": -159.7711
     },
