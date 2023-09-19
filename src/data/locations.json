@@ -121,204 +121,238 @@
     {
         "name": "Baghdad",
         "country": "Iraq",
+        "code": "iq",
         "latitude": 33.3152,
         "longitude": 44.3661
     },
     {
         "name": "Baku",
         "country": "Azerbaijan",
+        "code": "az",
         "latitude": 40.4093,
         "longitude": 49.8671
     },
     {
         "name": "Bamako",
         "country": "Mali",
+        "code": "ml",
         "latitude": 12.6392,
         "longitude": -8.0029
     },
     {
         "name": "Bandar Seri Begawan",
         "country": "Brunei",
+        "code": "bn",
         "latitude": 4.9031,
         "longitude": 114.9399
     },
     {
         "name": "Bangkok",
         "country": "Thailand",
+        "code": "th",
         "latitude": 13.7563,
         "longitude": 100.5018
     },
     {
         "name": "Bangui",
         "country": "Central African Republic",
+        "code": "cf",
         "latitude": 4.3947,
         "longitude": 18.5582
     },
     {
         "name": "Banjul",
         "country": "Gambia",
+        "code": "gm",
         "latitude": 13.4549,
         "longitude": -16.5790
     },
     {
         "name": "Basseterre",
         "country": "Saint Kitts and Nevis",
+        "code": "kn",
         "latitude": 17.3026,
         "longitude": -62.7177
     },
     {
         "name": "Beijing",
         "country": "China",
+        "code": "cn",
         "latitude": 39.9042,
         "longitude": 116.4074
     },
     {
         "name": "Beirut",
         "country": "Lebanon",
+        "code": "lb",
         "latitude": 33.8938,
         "longitude": 35.5018
     },
     {
         "name": "Belgrade",
         "country": "Serbia",
+        "code": "rs",
         "latitude": 44.7866,
         "longitude": 20.4489
     },
     {
         "name": "Belmopan",
         "country": "Belize",
+        "code": "bz",
         "latitude": 17.2510,
         "longitude": -88.7590
     },
     {
         "name": "Berlin",
         "country": "Germany",
+        "code": "de",
         "latitude": 52.5200,
         "longitude": 13.4050
     },
     {
         "name": "Bern",
         "country": "Switzerland",
+        "code": "ch",
         "latitude": 46.9480,
         "longitude": 7.4474
     },
     {
         "name": "Bishkek",
         "country": "Kyrgyzstan",
+        "code": "kg",
         "latitude": 42.8746,
         "longitude": 74.5698
     },
     {
         "name": "Bissau",
         "country": "Guinea-Bissau",
+        "code": "gw",
         "latitude": 11.8635,
         "longitude": -15.5977
     },
     {
         "name": "Bogota",
         "country": "Colombia",
+        "code": "co",
         "latitude": 4.7109,
         "longitude": -74.0721
     },
     {
         "name": "Brasilia",
         "country": "Brazil",
+        "code": "br",
         "latitude": -15.7942,
         "longitude": -47.8822
     },
     {
         "name": "Bratislava",
         "country": "Slovakia",
+        "code": "sk",
         "latitude": 48.1486,
         "longitude": 17.1077
     },
     {
         "name": "Brazzaville",
         "country": "Republic of the Congo",
+        "code": "cg",
         "latitude": -4.2634,
         "longitude": 15.2429
     },
     {
         "name": "Bridgetown",
         "country": "Barbados",
+        "code": "bb",
         "latitude": 13.0969,
         "longitude": -59.6145
     },
     {
         "name": "Brussels",
         "country": "Belgium",
+        "code": "be",
         "latitude": 50.8503,
         "longitude": 4.3517
     },
     {
         "name": "Bucharest",
         "country": "Romania",
+        "code": "ro",
         "latitude": 44.4268,
         "longitude": 26.1025
     },
     {
         "name": "Budapest",
         "country": "Hungary",
+        "code": "hu",
         "latitude": 47.4979,
         "longitude": 19.0402
     },
     {
         "name": "Buenos Aires",
         "country": "Argentina",
+        "code": "ar",
         "latitude": -34.6118,
         "longitude": -58.4173
     },
     {
         "name": "Bujumbura",
         "country": "Burundi",
+        "code": "bi",
         "latitude": -3.3818,
         "longitude": 29.3622
     },
     {
         "name": "Cairo",
         "country": "Egypt",
+        "code": "eg",
         "latitude": 30.0444,
         "longitude": 31.2357
     },
     {
         "name": "Canberra",
         "country": "Australia",
+        "code": "au",
         "latitude": -35.2809,
         "longitude": 149.1300
     },
     {
         "name": "Caracas",
         "country": "Venezuela",
+        "code": "ve",
         "latitude": 10.4806,
         "longitude": -66.9036
     },
     {
         "name": "Castries",
         "country": "Saint Lucia",
+        "code": "lc",
         "latitude": 14.0101,
         "longitude": -60.9875
     },
     {
         "name": "Chisinau",
         "country": "Moldova",
+        "code": "md",
         "latitude": 47.0167,
         "longitude": 28.8497
     },
     {
         "name": "Colombo",
         "country": "Sri Lanka",
+        "code": "lk",
         "latitude": 6.9271,
         "longitude": 79.8612
     },
     {
         "name": "Conakry",
         "country": "Guinea",
+        "code": "gn",
         "latitude": 9.6412,
         "longitude": -13.5784
     },
     {
         "name": "Copenhagen",
         "country": "Denmark",
+        "code": "dk",
         "latitude": 55.6761,
         "longitude": 12.5683
     },
