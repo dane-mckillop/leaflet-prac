@@ -359,96 +359,112 @@
     {
         "name": "Dakar",
         "country": "Senegal",
+        "code": "sn",
         "latitude": 14.6928,
         "longitude": -17.4467
     },
     {
         "name": "Damascus",
         "country": "Syria",
+        "code": "sy",
         "latitude": 33.5138,
         "longitude": 36.2765
     },
     {
         "name": "Dhaka",
         "country": "Bangladesh",
+        "code": "bd",
         "latitude": 23.8103,
         "longitude": 90.4125
     },
     {
         "name": "Dili",
         "country": "East Timor",
+        "code": "tl",
         "latitude": -8.5569,
         "longitude": 125.5604
     },
     {
         "name": "Djibouti",
         "country": "Djibouti",
+        "code": "dj",
         "latitude": 11.5884,
         "longitude": 43.1450
     },
     {
         "name": "Dodoma",
         "country": "Tanzania",
+        "code": "tz",
         "latitude": -6.1630,
         "longitude": 35.7516
     },
     {
         "name": "Doha",
         "country": "Qatar",
+        "code": "qa",
         "latitude": 25.2769,
         "longitude": 51.5200
     },
     {
         "name": "Douglas",
         "country": "Isle of Man",
+        "code": "im",
         "latitude": 54.2361,
         "longitude": -4.5481
     },
     {
         "name": "Dublin",
         "country": "Ireland",
+        "code": "ie",
         "latitude": 53.3498,
         "longitude": -6.2603
     },
     {
         "name": "Dushanbe",
         "country": "Tajikistan",
+        "code": "tj",
         "latitude": 38.5737,
         "longitude": 68.7738
     },
     {
         "name": "Edinburgh",
         "country": "Scotland",
+        "code": "gb",
         "latitude": 55.9533,
         "longitude": -3.1883
     },
     {
         "name": "El Aaiun",
         "country": "Western Sahara",
+        "code": "eh",
         "latitude": 27.1536,
         "longitude": -13.2033
     },
     {
         "name": "Episkopi Cantonment",
         "country": "Cyprus",
+        "code": "cy",
         "latitude": 34.6831,
         "longitude": 32.8909
     },
     {
         "name": "Erevan",
         "country": "Armenia",
+        "code": "am",
         "latitude": 40.1872,
         "longitude": 44.5152
     },
     {
         "name": "Freetown",
         "country": "Sierra Leone",
+        "code": "sl",
         "latitude": 8.4653,
         "longitude": -13.2317
     },
     {
         "name": "Funafuti",
         "country": "Tuvalu",
+        "code": "tv",
         "latitude": -7.1095,
         "longitude": 177.6493
     },
