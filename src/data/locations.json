@@ -471,30 +471,35 @@
     {
         "name": "Gaborone",
         "country": "Botswana",
+        "code": "bw",
         "latitude": -24.6541,
         "longitude": 25.9087
     },
     {
         "name": "George Town",
         "country": "Cayman Islands",
+        "code": "ky",
         "latitude": 19.3022,
         "longitude": -81.3860
     },
     {
         "name": "Georgetown",
         "country": "Guyana",
+        "code": "gy",
         "latitude": 6.8013,
         "longitude": -58.1551
     },
     {
         "name": "Gibraltar",
         "country": "Gibraltar",
+        "code": "gi",
         "latitude": 36.1377,
         "longitude": -5.3453
     },
     {
         "name": "Guatemala City",
         "country": "Guatemala",
+        "code": "gt",
         "latitude": 14.6349,
         "longitude": -90.5069
     },
