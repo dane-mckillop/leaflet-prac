@@ -506,36 +506,42 @@
     {
         "name": "Hagatna",
         "country": "Guam",
+        "code": "gu",
         "latitude": 13.4767,
         "longitude": 144.7516
     },
     {
         "name": "Hamilton",
         "country": "Bermuda",
+        "code": "bm",
         "latitude": 32.2949,
         "longitude": -64.7839
     },
     {
         "name": "Hanoi",
         "country": "Vietnam",
+        "code": "vn",
         "latitude": 21.0285,
         "longitude": 105.8542
     },
     {
         "name": "Harare",
         "country": "Zimbabwe",
+        "code": "zw",
         "latitude": -17.8292,
         "longitude": 31.0522
     },
     {
         "name": "Helsinki",
         "country": "Finland",
+        "code": "fi",
         "latitude": 60.1695,
         "longitude": 24.9354
     },
     {
         "name": "Honiara",
         "country": "Solomon Islands",
+        "code": "sb",
         "latitude": -9.4331,
         "longitude": 159.9498
     },
