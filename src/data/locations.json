@@ -548,84 +548,98 @@
     {
         "name": "Islamabad",
         "country": "Pakistan",
+        "code": "pk",
         "latitude": 33.6844,
         "longitude": 73.0479
     },
     {
         "name": "Jakarta",
         "country": "Indonesia",
+        "code": "id",
         "latitude": -6.2088,
         "longitude": 106.8456
     },
     {
         "name": "Jamestown",
         "country": "Saint Helena",
+        "code": "sh",
         "latitude": -15.9384,
         "longitude": -5.7161
     },
     {
         "name": "Jerusalem",
         "country": "Israel",
+        "code": "il",
         "latitude": 31.7683,
         "longitude": 35.2137
     },
     {
         "name": "Kabul",
         "country": "Afghanistan",
+        "code": "af",
         "latitude": 34.5553,
         "longitude": 69.2075
     },
     {
         "name": "Kampala",
         "country": "Uganda",
+        "code": "ug",
         "latitude": 0.3136,
         "longitude": 32.5811
     },
     {
         "name": "Kathmandu",
         "country": "Nepal",
+        "code": "np",
         "latitude": 27.7172,
         "longitude": 85.3240
     },
     {
         "name": "Khartoum",
         "country": "Sudan",
+        "code": "sd",
         "latitude": 15.5007,
         "longitude": 32.5599
     },
     {
         "name": "Kiev",
         "country": "Ukraine",
+        "code": "ua",
         "latitude": 50.4501,
         "longitude": 30.5234
     },
     {
         "name": "Kigali",
         "country": "Rwanda",
+        "code": "rw",
         "latitude": -1.9499,
         "longitude": 30.0589
     },
     {
         "name": "Kingston",
         "country": "Jamaica",
+        "code": "jm",
         "latitude": 17.9927,
         "longitude": -76.7920
     },
     {
         "name": "Kinshasa",
         "country": "Democratic Republic of the Congo",
+        "code": "cd",
         "latitude": -4.3250,
         "longitude": 15.3222
     },
     {
         "name": "Kuala Lumpur",
         "country": "Malaysia",
+        "code": "my",
         "latitude": 3.1390,
         "longitude": 101.6869
     },
     {
         "name": "Kuwait City",
         "country": "Kuwait",
+        "code": "kw",
         "latitude": 29.3759,
         "longitude": 47.9774
     },
