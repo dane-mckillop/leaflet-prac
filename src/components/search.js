@@ -10,7 +10,7 @@ import data from "../data/locations.json";
  * @todo implement event handling for string search of a location
  */
 export default function SearchBar(props) {
-    const { position, setPosition, city, setCity, country, setCountry } = props;
+    const { position, setPosition, city, setCity, country, setCountry, articles, setArticles } = props;
     const [innerSearch, setInnerSearch] = useState("");
     const [isMounted, setMounted] = useState(false);
     const searchInputRef = useRef(null);
@@ -40,6 +40,7 @@ export default function SearchBar(props) {
             setPosition([foundLocation.latitude, foundLocation.longitude]);
             setCity(`${foundLocation.city}`);
             setCountry(`${foundLocation.country}`);
+            
         } else {
             console.log("Location not found.");
         }
@@ -59,6 +60,21 @@ export default function SearchBar(props) {
             setMounted(true);
         }
     }, [position]);
+
+    /**
+     * Outputs the articles each time a news-api call is made.
+     * 
+     * @todo Move this useEffect to component such as sidebar. More sophistication than console.log.
+     * @param {*} props articles to be presented to user.
+     * @returns Stories relating to the searched country
+     */
+        useEffect(() => {
+            if (isMounted) {
+                console.log(articles);
+            } else {
+                setMounted(true);
+            }
+    }, [articles]);
 
     return (
         <div className="search-bar">

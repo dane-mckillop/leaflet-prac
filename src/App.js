@@ -27,6 +27,7 @@ export default function App() {
   const [position, setPosition] = useState(defaultPosition)
   const [city, setCity] = useState(defaultCity);
   const [country, setCountry] = useState(defaultCountry);
+  const [articles, setArticles] = useState([]);
   const markerRef = useRef(null);
   const mapRef = useRef(null);
 
@@ -41,7 +42,7 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} className="search-bar"/>
+      <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} className="search-bar"/>
       <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
