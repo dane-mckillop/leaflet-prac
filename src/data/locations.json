@@ -646,66 +646,77 @@
     {
         "name": "Libreville",
         "country": "Gabon",
+        "code": "ga",
         "latitude": 0.4162,
         "longitude": 9.4673
     },
     {
         "name": "Lilongwe",
         "country": "Malawi",
+        "code": "mw",
         "latitude": -13.9626,
         "longitude": 33.7741
     },
     {
         "name": "Lima",
         "country": "Peru",
+        "code": "pe",
         "latitude": -12.0464,
         "longitude": -77.0428
     },
     {
         "name": "Lisbon",
         "country": "Portugal",
+        "code": "pt",
         "latitude": 38.7223,
         "longitude": -9.1393
     },
     {
         "name": "Ljubljana",
         "country": "Slovenia",
+        "code": "si",
         "latitude": 46.0569,
         "longitude": 14.5058
     },
     {
         "name": "Lobamba",
         "country": "Eswatini",
+        "code": "sz",
         "latitude": -26.4694,
         "longitude": 31.2035
     },
     {
         "name": "Lome",
         "country": "Togo",
+        "code": "tg",
         "latitude": 6.1228,
         "longitude": 1.2255
     },
     {
         "name": "London",
         "country": "United Kingdom",
+        "code": "gb",
         "latitude": 51.5074,
         "longitude": -0.1278
     },
     {
         "name": "Luanda",
         "country": "Angola",
+        "code": "ao",
         "latitude": -8.8137,
         "longitude": 13.2410
     },
     {
         "name": "Lusaka",
         "country": "Zambia",
+        "code": "zm",
         "latitude": -15.3875,
         "longitude": 28.3228
     },
     {
         "name": "Luxembourg",
         "country": "Luxembourg",
+        "code": "lu",
         "latitude": 49.6117,
         "longitude": 6.1300
     },

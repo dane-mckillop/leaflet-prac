@@ -40,7 +40,7 @@ export default function SearchBar(props) {
             setPosition([foundLocation.latitude, foundLocation.longitude]);
             setCity(`${foundLocation.city}`);
             setCountry(`${foundLocation.country}`);
-            
+            fetchNews(`${foundLocation.code}`)
         } else {
             console.log("Location not found.");
         }
