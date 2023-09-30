@@ -723,132 +723,154 @@
     {
         "name": "Madrid",
         "country": "Spain",
+        "code": "es",
         "latitude": 40.4168,
         "longitude": -3.7038
     },
     {
         "name": "Majuro",
         "country": "Marshall Islands",
+        "code": "mh",
         "latitude": 7.0897,
         "longitude": 171.3802
     },
     {
         "name": "Malabo",
         "country": "Equatorial Guinea",
+        "code": "gq",
         "latitude": 3.7506,
         "longitude": 8.7371
     },
     {
         "name": "Male",
         "country": "Maldives",
+        "code": "mv",
         "latitude": 4.1755,
         "longitude": 73.5093
     },
     {
         "name": "Managua",
         "country": "Nicaragua",
+        "code": "ni",
         "latitude": 12.1149,
         "longitude": -86.2362
     },
     {
         "name": "Manama",
         "country": "Bahrain",
+        "code": "bh",
         "latitude": 26.2285,
         "longitude": 50.5860
     },
     {
         "name": "Manila",
         "country": "Philippines",
+        "code": "ph",
         "latitude": 14.5995,
         "longitude": 120.9842
     },
     {
         "name": "Maputo",
         "country": "Mozambique",
+        "code": "mz",
         "latitude": -25.9655,
         "longitude": 32.5832
     },
     {
         "name": "Mariehamn",
         "country": "Aland Islands",
+        "code": "ax",
         "latitude": 60.0974,
         "longitude": 19.9348
     },
     {
         "name": "Maseru",
         "country": "Lesotho",
+        "code": "ls",
         "latitude": -29.2976,
         "longitude": 27.4854
     },
     {
         "name": "Mata-Utu",
         "country": "Wallis and Futuna",
+        "code": "wf",
         "latitude": -13.2816,
         "longitude": -176.1752
     },
     {
         "name": "Mbabane",
         "country": "Eswatini",
+        "code": "sz",
         "latitude": -26.3186,
         "longitude": 31.1410
     },
     {
         "name": "Melekeok",
         "country": "Palau",
+        "code": "pw",
         "latitude": 7.5005,
         "longitude": 134.6234
     },
     {
         "name": "Mexico City",
         "country": "Mexico",
+        "code": "mx",
         "latitude": 19.4326,
         "longitude": -99.1332
     },
     {
         "name": "Minsk",
         "country": "Belarus",
+        "code": "by",
         "latitude": 53.9045,
         "longitude": 27.5615
     },
     {
         "name": "Mogadishu",
         "country": "Somalia",
+        "code": "so",
         "latitude": 2.0469,
         "longitude": 45.3182
     },
     {
         "name": "Monaco",
         "country": "Monaco",
+        "code": "mc",
         "latitude": 43.7384,
         "longitude": 7.4246
     },
     {
         "name": "Monrovia",
         "country": "Liberia",
+        "code": "lr",
         "latitude": 6.2907,
         "longitude": -10.7605
     },
     {
         "name": "Montevideo",
         "country": "Uruguay",
+        "code": "uy",
         "latitude": -34.9011,
         "longitude": -56.1645
     },
     {
         "name": "Moroni",
         "country": "Comoros",
+        "code": "km",
         "latitude": -11.7022,
         "longitude": 43.2551
     },
     {
         "name": "Moscow",
         "country": "Russia",
+        "code": "ru",
         "latitude": 55.7558,
         "longitude": 37.6173
     },
     {
         "name": "Muscat",
         "country": "Oman",
+        "code": "om",
         "latitude": 23.6105,
         "longitude": 58.5400
     },
