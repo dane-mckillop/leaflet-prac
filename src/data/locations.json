@@ -379,7 +379,7 @@
     },
     {
         "name": "Dili",
-        "country": "East Timor",
+        "country": "Timor-Leste",
         "code": "tl",
         "latitude": -8.5569,
         "longitude": 125.5604
@@ -877,60 +877,63 @@
     {
         "name": "Nairobi",
         "country": "Kenya",
+        "code": "ke",
         "latitude": -1.2921,
         "longitude": 36.8219
     },
     {
         "name": "Nassau",
         "country": "Bahamas",
+        "code": "bs",
         "latitude": 25.0343,
         "longitude": -77.3963
     },
     {
         "name": "Naypyidaw",
         "country": "Myanmar",
+        "code": "mm",
         "latitude": 19.7633,
         "longitude": 96.0785
     },
     {
         "name": "N'Djamena",
         "country": "Chad",
+        "code": "td",
         "latitude": 12.1348,
         "longitude": 15.0557
     },
     {
         "name": "New Delhi",
         "country": "India",
+        "code": "in",
         "latitude": 28.6139,
         "longitude": 77.2090
     },
     {
         "name": "Niamey",
         "country": "Niger",
+        "code": "ne",
         "latitude": 13.5127,
         "longitude": 2.1128
     },
     {
         "name": "Nicosia",
         "country": "Cyprus",
-        "latitude": 35.1856,
-        "longitude": 33.3823
-    },
-    {
-        "name": "Nicosia",
-        "country": "Northern Cyprus",
+        "code": "cy",
         "latitude": 35.1856,
         "longitude": 33.3823
     },
     {
         "name": "Nouakchott",
         "country": "Mauritania",
+        "code": "mr",
         "latitude": 18.0791,
         "longitude": -15.9785
     },
     {
         "name": "Noumea",
         "country": "New Caledonia",
+        "code": "nc",
         "latitude": -22.2758,
         "longitude": 166.4580
     },
