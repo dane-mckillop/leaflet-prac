@@ -938,128 +938,142 @@
         "longitude": 166.4580
     },
     {
-        "name": "Ottawa",
-        "country": "Canada",
-        "latitude": 45.4215,
-        "longitude": -75.6972
-    },
-    {
         "name": "Oslo",
         "country": "Norway",
+        "code": "no",
         "latitude": 59.9139,
         "longitude": 10.7522
     },
     {
         "name": "Ottawa",
         "country": "Canada",
+        "code": "ca",
         "latitude": 45.4215,
         "longitude": -75.6972
     },
     {
         "name": "Ouagadougou",
         "country": "Burkina Faso",
+        "code": "bf",
         "latitude": 12.3657,
         "longitude": -1.5339
     },
     {
         "name": "Palikir",
         "country": "Micronesia",
+        "code": "fm",
         "latitude": 6.9249,
         "longitude": 158.1610
     },
     {
         "name": "Panama City",
         "country": "Panama",
+        "code": "pa",
         "latitude": 8.9824,
         "longitude": -79.5199
     },
     {
         "name": "Papeete",
         "country": "French Polynesia",
+        "code": "pf",
         "latitude": -17.5350,
         "longitude": -149.5690
     },
     {
         "name": "Paramaribo",
         "country": "Suriname",
+        "code": "sr",
         "latitude": 5.8664,
         "longitude": -55.1679
     },
     {
         "name": "Paris",
         "country": "France",
+        "code": "fr",
         "latitude": 48.8566,
         "longitude": 2.3522
     },
     {
         "name": "Phnom Penh",
         "country": "Cambodia",
+        "code": "kh",
         "latitude": 11.5564,
         "longitude": 104.9282
     },
     {
         "name": "Podgorica",
         "country": "Montenegro",
+        "code": "me",
         "latitude": 42.4304,
         "longitude": 19.2594
     },
     {
         "name": "Port Louis",
         "country": "Mauritius",
+        "code": "mu",
         "latitude": -20.1619,
         "longitude": 57.4989
     },
     {
         "name": "Port Moresby",
         "country": "Papua New Guinea",
+        "code": "pg",
         "latitude": -9.4780,
         "longitude": 147.1500
     },
     {
         "name": "Port of Spain",
         "country": "Trinidad and Tobago",
+        "code": "tt",
         "latitude": 10.6604,
         "longitude": -61.5170
     },
     {
         "name": "Port Vila",
         "country": "Vanuatu",
+        "code": "vu",
         "latitude": -17.7333,
         "longitude": 168.3273
     },
     {
         "name": "Port-au-Prince",
         "country": "Haiti",
+        "code": "ht",
         "latitude": 18.5944,
         "longitude": -72.3074
     },
     {
         "name": "Porto-Novo",
         "country": "Benin",
+        "code": "bj",
         "latitude": 6.4965,
         "longitude": 2.6283
     },
     {
         "name": "Prague",
         "country": "Czech Republic",
+        "code": "cz",
         "latitude": 50.0755,
         "longitude": 14.4378
     },
     {
         "name": "Praia",
-        "country": "Cape Verde",
+        "country": "Cabo Verde",
+        "code": "cv",
         "latitude": 14.9320,
         "longitude": -23.5125
     },
     {
         "name": "Pyongyang",
         "country": "North Korea",
+        "code": "kp",
         "latitude": 39.0392,
         "longitude": 125.7625
     },
     {
         "name": "Quito",
         "country": "Ecuador",
+        "code": "ec",
         "latitude": -0.2295,
         "longitude": -78.5243
     },
