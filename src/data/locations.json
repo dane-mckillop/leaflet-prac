@@ -1080,150 +1080,168 @@
     {
         "name": "Rabat",
         "country": "Morocco",
+        "code": "ma",
         "latitude": 34.0209,
         "longitude": -6.8417
     },
     {
         "name": "Reykjavik",
         "country": "Iceland",
+        "code": "is",
         "latitude": 64.1265,
         "longitude": -21.8174
     },
     {
         "name": "Riga",
         "country": "Latvia",
+        "code": "lv",
         "latitude": 56.9496,
         "longitude": 24.1052
     },
     {
         "name": "Riyadh",
         "country": "Saudi Arabia",
+        "code": "sa",
         "latitude": 24.7136,
         "longitude": 46.6753
     },
     {
         "name": "Rome",
         "country": "Italy",
+        "code": "it",
         "latitude": 41.9028,
         "longitude": 12.4964
     },
     {
         "name": "Roseau",
         "country": "Dominica",
+        "code": "dm",
         "latitude": 15.3010,
         "longitude": -61.3886
     },
     {
         "name": "San Jose",
         "country": "Costa Rica",
+        "code": "cr",
         "latitude": 9.9281,
         "longitude": -84.0907
     },
     {
         "name": "San Marino",
         "country": "San Marino",
+        "code": "sm",
         "latitude": 43.9424,
         "longitude": 12.4578
     },
     {
         "name": "San Juan",
         "country": "Puerto Rico",
+        "code": "pr",
         "latitude": 18.4655,
         "longitude": -66.1057
     },
     {
         "name": "Sana'a",
         "country": "Yemen",
+        "code": "ye",
         "latitude": 15.3694,
         "longitude": 44.1910
     },
     {
         "name": "San Salvador",
         "country": "El Salvador",
+        "code": "sv",
         "latitude": 13.6929,
         "longitude": -89.2182
     },
     {
         "name": "Santo Domingo",
         "country": "Dominican Republic",
+        "code": "do",
         "latitude": 18.4861,
         "longitude": -69.9312
     },
     {
         "name": "Sao Tome",
         "country": "Sao Tome and Principe",
+        "code": "st",
         "latitude": 0.1864,
         "longitude": 6.6131
     },
     {
         "name": "Sarajevo",
         "country": "Bosnia and Herzegovina",
+        "code": "ba",
         "latitude": 43.8563,
         "longitude": 18.4131
     },
     {
         "name": "Seoul",
         "country": "South Korea",
+        "code": "kr",
         "latitude": 37.5665,
         "longitude": 126.9780
     },
     {
         "name": "Singapore",
         "country": "Singapore",
+        "code": "sg",
         "latitude": 1.3521,
         "longitude": 103.8198
     },
     {
         "name": "Sofia",
         "country": "Bulgaria",
+        "code": "bg",
         "latitude": 42.6977,
         "longitude": 23.3219
     },
     {
         "name": "St George's",
         "country": "Grenada",
+        "code": "gd",
         "latitude": 12.0567,
         "longitude": -61.7489
     },
     {
         "name": "St John's",
         "country": "Antigua and Barbuda",
+        "code": "ag",
         "latitude": 17.1176,
         "longitude": -61.8466
     },
     {
         "name": "St Pierre",
         "country": "Saint Pierre and Miquelon",
+        "code": "pm",
         "latitude": 46.7875,
         "longitude": -56.1750
     },
     {
         "name": "Stanley",
         "country": "Falkland Islands",
+        "code": "pm",
         "latitude": -51.6948,
         "longitude": -57.8520
     },
     {
         "name": "Stockholm",
         "country": "Sweden",
+        "code": "se",
         "latitude": 59.3293,
         "longitude": 18.0686
     },
     {
         "name": "Sucre",
         "country": "Bolivia",
+        "code": "bo",
         "latitude": -19.0333,
         "longitude": -65.2627
     },
     {
-        "name": "Sukhumi",
-        "country": "Abkhazia",
-        "latitude": 43.0075,
-        "longitude": 41.0245
-    },
-    {
         "name": "Suva",
         "country": "Fiji",
+        "code": "fj",
         "latitude": -18.1248,
         "longitude": 178.4501
     },
