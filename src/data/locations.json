@@ -1248,84 +1248,91 @@
     {
         "name": "Tallinn",
         "country": "Estonia",
+        "code": "ee",
         "latitude": 59.4370,
         "longitude": 24.7536
     },
     {
         "name": "Tarawa",
         "country": "Kiribati",
+        "code": "ki",
         "latitude": 1.3270,
         "longitude": 172.9769
     },
     {
         "name": "Tashkent",
         "country": "Uzbekistan",
+        "code": "uz",
         "latitude": 41.2995,
         "longitude": 69.2401
     },
     {
         "name": "Tbilisi",
         "country": "Georgia",
+        "code": "ge",
         "latitude": 41.7151,
         "longitude": 44.8271
     },
     {
         "name": "Tegucigalpa",
         "country": "Honduras",
+        "code": "hn",
         "latitude": 14.0723,
         "longitude": -87.1810
     },
     {
         "name": "Tehran",
         "country": "Iran",
+        "code": "ir",
         "latitude": 35.6895,
         "longitude": 51.3767
     },
     {
         "name": "Thimphu",
         "country": "Bhutan",
+        "code": "bt",
         "latitude": 27.4728,
         "longitude": 89.6390
     },
     {
         "name": "Tirana",
         "country": "Albania",
+        "code": "",
         "latitude": 41.3275,
         "longitude": 19.8187
     },
     {
-        "name": "Tiraspol",
-        "country": "Transnistria",
-        "latitude": 46.8531,
-        "longitude": 29.6395
-    },
-    {
         "name": "Tokyo",
         "country": "Japan",
+        "code": "jp",
         "latitude": 35.6895,
         "longitude": 139.6917
     },
     {
         "name": "Taipei",
         "country": "Taiwan",
+        "code": "tw",
         "latitude": 25.0330,
         "longitude": 121.5654
     },
     {
         "name": "Tripoli",
         "country": "Libya",
+        "code": "ly",
         "latitude": 32.8872,
         "longitude": 13.1913
     },
     {
         "name": "Tunis",
         "country": "Tunisia",
+        "code": "tn",
         "latitude": 36.8065,
         "longitude": 10.1815
     },
     {
         "name": "Ulaanbaatar",
         "country": "Mongolia",
+        "code": "mn",
         "latitude": 47.9183,
         "longitude": 106.9176
     },
