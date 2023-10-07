@@ -1339,42 +1339,49 @@
     {
         "name": "Valletta",
         "country": "Malta",
+        "code": "mt",
         "latitude": 35.8989,
         "longitude": 14.5146
     },
     {
         "name": "Vaduz",
         "country": "Liechtenstein",
+        "code": "li",
         "latitude": 47.1410,
         "longitude": 9.5215
     },
     {
         "name": "Vatican City",
         "country": "Vatican City",
+        "code": "va",
         "latitude": 41.9029,
         "longitude": 12.4534
     },
     {
         "name": "Victoria",
         "country": "Seychelles",
+        "code": "sc",
         "latitude": -4.6191,
         "longitude": 55.4518
     },
     {
         "name": "Vienna",
         "country": "Austria",
+        "code": "at",
         "latitude": 48.2082,
         "longitude": 16.3738
     },
     {
         "name": "Vientiane",
         "country": "Laos",
+        "code": "la",
         "latitude": 17.9667,
         "longitude": 102.6000
     },
     {
         "name": "Vilnius",
         "country": "Lithuania",
+        "code": "lt",
         "latitude": 54.6872,
         "longitude": 25.2797
     },
