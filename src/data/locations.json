@@ -1388,48 +1388,56 @@
     {
         "name": "Warsaw",
         "country": "Poland",
+        "code": "pl",
         "latitude": 52.2297,
         "longitude": 21.0122
     },
     {
         "name": "Washington, D.C.",
         "country": "United States of America",
+        "code": "us",
         "latitude": 38.8951,
         "longitude": -77.0364
     },
     {
         "name": "Wellington",
         "country": "New Zealand",
+        "code": "nz",
         "latitude": -41.2865,
         "longitude": 174.7762
     },
     {
         "name": "Windhoek",
         "country": "Namibia",
+        "code": "na",
         "latitude": -22.5597,
         "longitude": 17.0832
     },
     {
         "name": "Yaoundé",
         "country": "Cameroon",
+        "code": "cm",
         "latitude": 3.848,
         "longitude": 11.5021
     },
     {
         "name": "Yerevan",
         "country": "Armenia",
+        "code": "am",
         "latitude": 40.1792,
         "longitude": 44.4991
     },
     {
         "name": "Yaren",
         "country": "Nauru",
+        "code": "nr",
         "latitude": -0.5477,
         "longitude": 166.9209
     },
     {
         "name": "Zagreb",
         "country": "Croatia",
+        "code": "hr",
         "latitude": 45.8150,
         "longitude": 15.9819
     }
