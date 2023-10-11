@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import data from "../data/locations.json";
+import FetchNews from "../api/fetchNews.js";
 
 /**
  * Allows a user to search for a city by name.
@@ -40,7 +41,7 @@ export default function SearchBar(props) {
             setPosition([foundLocation.latitude, foundLocation.longitude]);
             setCity(`${foundLocation.city}`);
             setCountry(`${foundLocation.country}`);
-            fetchNews(`${foundLocation.code}`)
+            FetchNews(`${foundLocation.code}`)
         } else {
             console.log("Location not found.");
         }

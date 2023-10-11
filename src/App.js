@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import iconURL from "./icons/placeholder.png"
@@ -42,18 +42,20 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} className="search-bar"/>
-      <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution="..."
-        />
-        <Marker position={position} icon={baseMarker}>
-          <Popup>
-            {city}
-          </Popup>
-        </Marker>
-      </MapContainer>
+      <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} className="search-bar" />
+      <div className="content-container">
+        <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
+          <TileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution="..."
+          />
+          <Marker position={position} icon={baseMarker}>
+            <Popup>
+              {city}
+            </Popup>
+          </Marker>
+        </MapContainer>
+      </div>
     </div>
   );
 }
