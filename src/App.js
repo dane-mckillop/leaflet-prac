@@ -6,6 +6,7 @@ import "./styles.css";
 import "leaflet/dist/leaflet.css";
 
 import SearchBar from "./components/search.js";
+import NewsBar from './components/newsBar.js';
 
 const baseMarker = L.icon({
   iconUrl: iconURL,
@@ -43,19 +44,18 @@ export default function App() {
   return (
     <div className="app-container">
       <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} className="search-bar" />
-      <div className="content-container">
-        <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution="..."
-          />
-          <Marker position={position} icon={baseMarker}>
-            <Popup>
-              {city}
-            </Popup>
-          </Marker>
-        </MapContainer>
-      </div>
+      {/*<NewsBar></NewsBar> To be fixed, breaks map and app*/}
+      <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution="..."
+        />
+        <Marker position={position} icon={baseMarker}>
+          <Popup>
+            {city}
+          </Popup>
+        </Marker>
+      </MapContainer>
     </div>
   );
 }

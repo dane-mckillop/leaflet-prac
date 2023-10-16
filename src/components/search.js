@@ -32,16 +32,28 @@ export default function SearchBar(props) {
         const foundLocation = data.find(location => {
             const lowerCaseSearch = locationToSearch.toLowerCase();
             return (
-              location.name.toLowerCase() === lowerCaseSearch ||
-              location.country.toLowerCase() === lowerCaseSearch
+                location.name.toLowerCase() === lowerCaseSearch ||
+                location.country.toLowerCase() === lowerCaseSearch
             );
-          });
-    
+        });
+
         if (foundLocation) {
             setPosition([foundLocation.latitude, foundLocation.longitude]);
             setCity(`${foundLocation.city}`);
             setCountry(`${foundLocation.country}`);
             FetchNews(`${foundLocation.code}`)
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    setArticles(data.stories);
+                })
+                .catch((error) => {
+                    console.error('Error fetching stories:', error);
+                });
         } else {
             console.log("Location not found.");
         }
@@ -69,12 +81,12 @@ export default function SearchBar(props) {
      * @param {*} props articles to be presented to user.
      * @returns Stories relating to the searched country
      */
-        useEffect(() => {
-            if (isMounted) {
-                console.log(articles);
-            } else {
-                setMounted(true);
-            }
+    useEffect(() => {
+        if (isMounted) {
+            console.log(articles);
+        } else {
+            setMounted(true);
+        }
     }, [articles]);
 
     return (

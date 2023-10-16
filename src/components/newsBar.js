@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import data from "../data/locations.json";
+import NewsStory from "./newsStory.js";
 
 /**
  * Component for containing stories that a user can search.
@@ -11,7 +12,22 @@ import data from "../data/locations.json";
  */
 
 export default function NewsBar(props) {
-    <div>
-        {/* Labels? */}
-    </div>
+    const {badgesData} = props;
+
+    return (
+        <div className="newsbar">
+          <h2>Badges</h2>
+          <div className="badge-list">
+            {badgesData.map((badge, index) => (
+              <NewsStory
+                key={index}
+                image={badge.image}
+                description={badge.description}
+                author={badge.author}
+                date={badge.date}
+              />
+            ))}
+          </div>
+        </div>
+      );
 }
