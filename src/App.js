@@ -51,15 +51,15 @@ export default function App() {
     if (showAlert) {
       const timeout = setTimeout(() => {
         setShowAlert(false);
-      }, 1500);
+      }, 1200);
       return () => clearTimeout(timeout);
     }
   }, [showAlert]);
 
   return (
     <div className="app-container">
-      {showAlert ?
-        <Alert key='missing-city' variant='info'>
+      {showAlert ? /* consider changing to Notification in future */
+        <Alert className='missing-city' variant='info'>
           Location not found!
         </Alert>
         :
