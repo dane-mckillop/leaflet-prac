@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import {Alert} from 'react-bootstrap';
 import L from 'leaflet';
 import iconURL from "./icons/placeholder.png"
 import "./styles.css";
@@ -29,6 +30,7 @@ export default function App() {
   const [city, setCity] = useState(defaultCity);
   const [country, setCountry] = useState(defaultCountry);
   const [articles, setArticles] = useState([]);
+  const [showAlert, setShowAlert] = useState(false);
   const markerRef = useRef(null);
   const mapRef = useRef(null);
 
@@ -41,10 +43,29 @@ export default function App() {
     }
   }, [position]);
 
+ /* 
+  * Resets the showAlert to false 2 seconds after set true.
+  * Responsible for displaying the alert message.
+ */
+  useEffect(() => {
+    if (showAlert) {
+      const timeout = setTimeout(() => {
+        setShowAlert(false);
+      }, 1500);
+      return () => clearTimeout(timeout);
+    }
+  }, [showAlert]);
+
   return (
     <div className="app-container">
-      <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} className="search-bar" />
-      {/*<NewsBar></NewsBar> To be fixed, breaks map and app*/}
+      {showAlert ?
+        <Alert key='missing-city' variant='info'>
+          Location not found!
+        </Alert>
+        :
+        <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} setShowAlert={setShowAlert} className="search-bar" />
+      }
+      {/*<NewsBar articles={articles}></NewsBar> To be fixed, breaks map and app*/}
       <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

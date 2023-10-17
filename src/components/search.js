@@ -11,7 +11,7 @@ import FetchNews from "../api/fetchNews.js";
  * @todo implement event handling for string search of a location
  */
 export default function SearchBar(props) {
-    const { position, setPosition, city, setCity, country, setCountry, articles, setArticles } = props;
+    const { position, setPosition, city, setCity, country, setCountry, articles, setArticles, setShowAlert } = props;
     const [innerSearch, setInnerSearch] = useState("");
     const [isMounted, setMounted] = useState(false);
     const searchInputRef = useRef(null);
@@ -55,17 +55,13 @@ export default function SearchBar(props) {
                     console.error('Error fetching stories:', error);
                 });
         } else {
-            console.log("Location not found.");
+            setShowAlert(true);
         }
     };
 
     /**
      * Checks if the application has mounted, then outputs the results of test.
-     * 
-     * @todo when "innersearch" state changes, update position location. Check if innersearch is a valid location.
-     * @param {*} props position of the marker
-     * @returns
-     */
+    */
     useEffect(() => {
         if (isMounted) {
             console.log(position);
@@ -76,11 +72,7 @@ export default function SearchBar(props) {
 
     /**
      * Outputs the articles each time a news-api call is made.
-     * 
-     * @todo Move this useEffect to component such as sidebar. More sophistication than console.log.
-     * @param {*} props articles to be presented to user.
-     * @returns Stories relating to the searched country
-     */
+    */
     useEffect(() => {
         if (isMounted) {
             console.log(articles);
