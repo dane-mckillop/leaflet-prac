@@ -5,6 +5,7 @@ import L from 'leaflet';
 import iconURL from "./icons/placeholder.png"
 import "./styles.css";
 import "leaflet/dist/leaflet.css";
+import data from "./data/locations.json";
 
 import SearchBar from "./components/search.js";
 import NewsBar from './components/newsBar.js';
@@ -35,9 +36,10 @@ export default function App() {
   const mapRef = useRef(null);
 
   useEffect(() => {
+    /* Written for single marker which moves.
     if (markerRef.current) {
       markerRef.current.leafletElement.setLatLng(position);
-    }
+    }*/
     if (mapRef.current) {
       mapRef.current.setView(position, baseZoom);
     }
@@ -58,7 +60,7 @@ export default function App() {
 
   return (
     <div className="app-container">
-      {showAlert ? /* consider changing to Notification in future */
+      {showAlert ? /* consider changing to Notification in future, transparent fade in/out */
         <Alert className='missing-city' variant='info'>
           Location not found!
         </Alert>
@@ -71,11 +73,13 @@ export default function App() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="..."
         />
-        <Marker position={position} icon={baseMarker}>
-          <Popup>
-            {city}
-          </Popup>
-        </Marker>
+        {data.map((location) => (
+          <Marker key={location.name} position={[location.latitude, location.longitude]} icon={baseMarker}>
+            <Popup>
+              {location.name}, {location.country}
+            </Popup>
+          </Marker>
+        ))}
       </MapContainer>
     </div>
   );
