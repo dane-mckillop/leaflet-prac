@@ -7,7 +7,7 @@ import "./styles.css";
 import "leaflet/dist/leaflet.css";
 import data from "./data/locations.json";
 
-import SearchBar from "./components/search.js";
+import Search from "./components/search.js";
 import NewsBar from './components/newsBar.js';
 
 const baseMarker = L.icon({
@@ -65,7 +65,7 @@ export default function App() {
           Location not found!
         </Alert>
         :
-        <SearchBar position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} setShowAlert={setShowAlert} className="search-bar" />
+        <Search position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} setShowAlert={setShowAlert} className="search" />
       }
       {/*<NewsBar articles={articles}></NewsBar> To be fixed, breaks map and app*/}
       <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">

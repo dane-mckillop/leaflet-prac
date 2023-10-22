@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import data from "../data/locations.json";
 import FetchNews from "../api/fetchNews.js";
+import SearchBar from "./searchBar.js";
 
 /**
  * Allows a user to search for a city by name.
@@ -10,7 +11,7 @@ import FetchNews from "../api/fetchNews.js";
  * @returns 
  * @todo implement event handling for string search of a location
  */
-export default function SearchBar(props) {
+export default function Search(props) {
     const { position, setPosition, city, setCity, country, setCountry, articles, setArticles, setShowAlert } = props;
     const [innerSearch, setInnerSearch] = useState("");
     const [isMounted, setMounted] = useState(false);
@@ -82,23 +83,6 @@ export default function SearchBar(props) {
     }, [articles]);
 
     return (
-        <div className="search-bar">
-            <input
-                aria-labelledby="search-button"
-                name="search"
-                id="search"
-                type="search"
-                value={innerSearch}
-                onChange={(e) => setInnerSearch(e.target.value)}
-                onKeyDown={handleKeyDown}
-                ref={searchInputRef}
-            />
-            <button
-                className="search-button"
-                onClick={handleSearch}
-            >
-                Search
-            </button>
-        </div>
+        <SearchBar innerSearch={innerSearch} setInnerSearch={setInnerSearch} searchInputRef={searchInputRef} handleKeyDown={handleKeyDown} handleSearch={handleSearch}/>
     )
 }
