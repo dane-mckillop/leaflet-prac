@@ -39,18 +39,12 @@ export default function Search(props) {
         });
 
         if (foundLocation) {
-            setPosition([foundLocation.latitude, foundLocation.longitude]);
-            setCity(`${foundLocation.city}`);
-            setCountry(`${foundLocation.country}`);
-            FetchNews(`${foundLocation.code}`)
+            setPosition([foundLocation.latitude, foundLocation.longitude])
+            setCity(`${foundLocation.name}`);
+            setCountry(`${foundLocation.country}`)
+            FetchNews(foundLocation.country)
                 .then((response) => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then((data) => {
-                    setArticles(data.stories);
+                    console.log(articles);
                 })
                 .catch((error) => {
                     console.error('Error fetching stories:', error);
@@ -83,6 +77,6 @@ export default function Search(props) {
     }, [articles]);
 
     return (
-        <SearchBar innerSearch={innerSearch} setInnerSearch={setInnerSearch} searchInputRef={searchInputRef} handleKeyDown={handleKeyDown} handleSearch={handleSearch}/>
+        <SearchBar innerSearch={innerSearch} setInnerSearch={setInnerSearch} searchInputRef={searchInputRef} handleKeyDown={handleKeyDown} handleSearch={handleSearch} />
     )
 }
