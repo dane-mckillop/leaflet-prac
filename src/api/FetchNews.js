@@ -15,9 +15,11 @@ export default function FetchNews(country) {
 
     return fetch(url)
         .then((response) => {
-            console.log(response);
-            console.log(url);
             return response.json();
+        })
+        .then(articles => {
+            console.log(articles);
+            return articles;
         })
         .catch(error => {
             console.error('Error fetching news:', error);
