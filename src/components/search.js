@@ -54,6 +54,10 @@ export default function Search(props) {
         }
     };
 
+    const clearSearch = () => {
+        ;
+    }
+
     /**
      * Checks if the application has mounted, then outputs the results of test.
     */
@@ -77,6 +81,6 @@ export default function Search(props) {
     }, [articles]);
 
     return (
-        <SearchBar innerSearch={innerSearch} setInnerSearch={setInnerSearch} searchInputRef={searchInputRef} handleKeyDown={handleKeyDown} handleSearch={handleSearch} />
+        <SearchBar innerSearch={innerSearch} setInnerSearch={setInnerSearch} searchInputRef={searchInputRef} handleKeyDown={handleKeyDown} handleSearch={handleSearch} clearSearch={clearSearch} />
     )
 }

@@ -1,7 +1,7 @@
 
 
 export default function SearchBar(props) {
-    const {innerSearch, setInnerSearch, searchInputRef, handleKeyDown, handleSearch} = props;
+    const {innerSearch, setInnerSearch, searchInputRef, handleKeyDown, handleSearch, clearSearch} = props;
 
     return (
         <div className="search-bar">
@@ -20,6 +20,12 @@ export default function SearchBar(props) {
                 onClick={handleSearch}
             >
                 Search
+            </button>
+            <button
+            className="clear-button"
+            onClick={clearSearch}
+            >
+                X
             </button>
         </div>
     )
