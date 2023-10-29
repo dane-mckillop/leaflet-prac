@@ -1,7 +1,13 @@
 
-
+/**
+ * Search bar allowing text input to search for countries and capitals.
+ * Also includes a clear search button.
+ * 
+ * @param {*} props 
+ * @returns 
+ */
 export default function SearchBar(props) {
-    const {innerSearch, setInnerSearch, searchInputRef, handleKeyDown, handleSearch, clearSearch} = props;
+    const { innerSearch, setInnerSearch, searchInputRef, handleKeyDown, handleSearch, clearSearch } = props;
 
     return (
         <div className="search-bar">
@@ -19,13 +25,13 @@ export default function SearchBar(props) {
                 className="search-button"
                 onClick={handleSearch}
             >
-                Search
+                &#128269;
             </button>
             <button
-            className="clear-button"
-            onClick={clearSearch}
+                className="clear-button"
+                onClick={clearSearch}
             >
-                X
+                &#10060;
             </button>
         </div>
     )

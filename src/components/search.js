@@ -16,7 +16,10 @@ export default function Search(props) {
     const [innerSearch, setInnerSearch] = useState("");
     const [isMounted, setMounted] = useState(false);
     const searchInputRef = useRef(null);
-    const defaultPosition = [51.505, -0.09];
+    const defaultCity = "London";
+    const defaultCountry = "United Kingdom";
+    const baseZoom = 13;
+    const defaultPosition = [51.5074, -0.1278];
 
     //activates the onClick handler if the user presses enter.
     const handleKeyDown = (event) => {
@@ -54,8 +57,14 @@ export default function Search(props) {
         }
     };
 
+    //Clears the current search and resets location to the default (London, UK)
+    //Clear: innerSearch, 
     const clearSearch = () => {
-        ;
+        setPosition(defaultPosition);
+        setCity(defaultCity);
+        setCountry(defaultCountry);
+        setInnerSearch("");
+        setArticles([]);
     }
 
     /**
