@@ -8,7 +8,7 @@ import "leaflet/dist/leaflet.css";
 import data from "./data/locations.json";
 
 import Search from "./components/search.js";
-import NewsBar from './components/newsBar.js';
+import NewsBar from "./components/newsBar.js";
 
 const baseMarker = L.icon({
   iconUrl: iconURL,
