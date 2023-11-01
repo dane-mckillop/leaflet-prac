@@ -1,13 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import {Alert} from 'react-bootstrap';
 import L from 'leaflet';
 import iconURL from "./icons/placeholder.png"
 import "./styles.css";
 import "leaflet/dist/leaflet.css";
 import data from "./data/locations.json";
 
-import Search from "./components/search.js";
+import Header from "./components/header.js";
 import NewsBar from "./components/newsBar.js";
 
 const baseMarker = L.icon({
@@ -60,13 +59,7 @@ export default function App() {
 
   return (
     <div className="app-container">
-      {showAlert ? /* consider changing to Notification in future, transparent fade in/out */
-        <Alert className='missing-city' variant='info'>
-          Location not found!
-        </Alert>
-        :
-        <Search position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} setShowAlert={setShowAlert} className="search" />
-      }
+      <Header position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} showAlert={showAlert} setShowAlert={setShowAlert}/>
       {/*<NewsBar articles={articles}></NewsBar> To be fixed, breaks map and app*/}
       <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
         <TileLayer
