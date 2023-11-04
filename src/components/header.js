@@ -1,6 +1,13 @@
 import {Alert} from 'react-bootstrap';
 import Search from "./search.js";
 
+/**
+ * Header component that holds the search and main widget components.
+ * Every page includes the header, and is placed above the route content.
+ * 
+ * @param {*} props 
+ * @returns 
+ */
 export default function Header(props) {
     const { position, setPosition, city, setCity, country, setCountry, articles, setArticles, showAlert, setShowAlert } = props;
 
