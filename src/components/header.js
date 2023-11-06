@@ -1,4 +1,4 @@
-import {Alert} from 'react-bootstrap';
+import { Alert } from 'react-bootstrap';
 import Search from "./search.js";
 
 /**
@@ -13,13 +13,18 @@ export default function Header(props) {
 
     return (
         <div className="header-container">
-            {showAlert ? /* consider changing to Notification in future, transparent fade in/out */
-                <Alert className='missing-city' variant='info'>
-                    Location not found!
-                </Alert>
-                :
-                <Search position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} setShowAlert={setShowAlert} className="search" />
-            }
+            <div className="btn-articles-container">
+                <button className="btn-articles" onclick="openNav()">&#9776;</button>
+            </div>
+            <div className="search-container">
+                {showAlert ? /* consider changing to Notification in future, transparent fade in/out */
+                    <Alert className='missing-city' variant='info'>
+                        Location not found!
+                    </Alert>
+                    :
+                    <Search position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} setShowAlert={setShowAlert} className="search" />
+                }
+            </div>
         </div>
-    )
+    );
 }

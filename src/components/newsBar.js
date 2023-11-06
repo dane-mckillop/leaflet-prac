@@ -16,7 +16,6 @@ export default function NewsBar(props) {
 
     return (
         <div className="newsbar">
-          <h2>Badges</h2>
           <div className="badge-list">
             {badgesData.map((badge, index) => (
               <NewsStory
