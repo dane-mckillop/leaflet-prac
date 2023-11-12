@@ -36,8 +36,8 @@ export default function Search(props) {
         const foundLocation = data.find(location => {
             const lowerCaseSearch = locationToSearch.toLowerCase();
             return (
-                location.name.toLowerCase() === lowerCaseSearch ||
-                location.country.toLowerCase() === lowerCaseSearch
+                location.name.toLowerCase().includes(lowerCaseSearch) ||
+                location.country.toLowerCase().includes(lowerCaseSearch)
             );
         });
 
