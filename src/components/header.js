@@ -13,9 +13,12 @@ export default function Header(props) {
 
     return (
         <div className="header-container">
-            <div className="btn-articles-container">
-                <button className="btn-articles" onclick="openNav()">&#9776;</button>
-            </div>
+            {articles !== null && articles.length > 0 && (
+
+                <div className="btn-articles-container">
+                    <button className="btn-articles" onclick="openNav()">&#9776;</button>
+                </div>
+            )}
             <div className="search-container">
                 {showAlert ? /* consider changing to Notification in future, transparent fade in/out */
                     <Alert className='missing-city' variant='info'>

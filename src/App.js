@@ -7,7 +7,6 @@ import "leaflet/dist/leaflet.css";
 import data from "./data/locations.json";
 
 import Header from "./components/header.js";
-import NewsBar from "./components/newsBar.js";
 
 const baseMarker = L.icon({
   iconUrl: iconURL,
@@ -29,7 +28,7 @@ export default function App() {
   const [position, setPosition] = useState(defaultPosition)
   const [city, setCity] = useState(defaultCity);
   const [country, setCountry] = useState(defaultCountry);
-  const [articles, setArticles] = useState([]);
+  const [articles, setArticles] = useState(null);
   const [showAlert, setShowAlert] = useState(false);
   const markerRef = useRef(null);
   const mapRef = useRef(null);

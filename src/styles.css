@@ -34,7 +34,7 @@
 }
 
 .btn-articles-container {
-  width: 20%;
+  width: 10%;
   display:flex;
   justify-content: left;
   align-items: center;
@@ -47,10 +47,11 @@
 }
 
 .search-container {
-  width: 60%;
+  width: 90%;
   margin-left: auto;
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  padding-right:10%;
 }
 
 .search-button {
