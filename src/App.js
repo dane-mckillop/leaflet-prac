@@ -8,6 +8,7 @@ import data from "./data/locations.json";
 
 import Header from "./components/header.js";
 import NewsBar from "./components/newsBar.js";
+import Title from "./components/title.js";
 
 const baseMarker = L.icon({
   iconUrl: iconURL,
@@ -59,8 +60,11 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <Header position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} showAlert={showAlert} setShowAlert={setShowAlert} />
-      {articles && <NewsBar articles={articles} />}
+      <div className="header-outer-container">
+        <Title />
+        <Header position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} showAlert={showAlert} setShowAlert={setShowAlert} />
+        {articles && <NewsBar articles={articles} />}
+      </div>
       <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

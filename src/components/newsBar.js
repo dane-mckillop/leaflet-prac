@@ -16,9 +16,7 @@ export default function NewsBar(props) {
 
     return (
         <div className="newsbar">
-          <div className="articles-list">
-            <p> Test List </p>
-          </div>
+          
         </div>
       );
 }

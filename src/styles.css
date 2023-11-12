@@ -17,13 +17,20 @@
 }
 
 .app-container {
+  background-image: url("../public/img/maritime-charts-stock.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70%;
+  height: 100%;
   width: 100%;
-  padding: 10px;
+}
+
+.header-outer-container {
+  width:100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .header-container {
@@ -31,6 +38,14 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #5f3b01;
+  font-family: "Brush Script MT";
 }
 
 .btn-articles-container {
@@ -51,7 +66,6 @@
   margin-left: auto;
   display: flex;
   justify-content: center;
-  padding-right:10%;
 }
 
 .search-button {
@@ -60,14 +74,11 @@
 }
 
 .map-container {
-  margin-top: 20px;
   flex: 1;
 }
 
 .leaflet-container {
-  height: 90vh;
-  width: 90%;
-  border-radius: 2rem;
+  width: 100%;
 }
 
 .cluster-icon {
