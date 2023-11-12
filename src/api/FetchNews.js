@@ -18,7 +18,6 @@ export default function FetchNews(country) {
             return response.json();
         })
         .then(articles => {
-            console.log(articles);
             return articles;
         })
         .catch(error => {

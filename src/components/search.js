@@ -47,6 +47,7 @@ export default function Search(props) {
             setCountry(`${foundLocation.country}`)
             FetchNews(foundLocation.country)
                 .then((response) => {
+                    setArticles(response);
                     console.log(articles);
                 })
                 .catch((error) => {
@@ -64,7 +65,7 @@ export default function Search(props) {
         setCity(defaultCity);
         setCountry(defaultCountry);
         setInnerSearch("");
-        setArticles([]);
+        setArticles(null);
     }
 
     /**

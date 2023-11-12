@@ -13,8 +13,7 @@ export default function Header(props) {
 
     return (
         <div className="header-container">
-            {articles !== null && articles.length > 0 && (
-
+            {articles !== null && (
                 <div className="btn-articles-container">
                     <button className="btn-articles" onclick="openNav()">&#9776;</button>
                 </div>
