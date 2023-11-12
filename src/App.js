@@ -7,6 +7,7 @@ import "leaflet/dist/leaflet.css";
 import data from "./data/locations.json";
 
 import Header from "./components/header.js";
+import NewsBar from "./components/newsBar.js";
 
 const baseMarker = L.icon({
   iconUrl: iconURL,
@@ -43,10 +44,10 @@ export default function App() {
     }
   }, [position]);
 
- /* 
-  * Resets the showAlert to false 2 seconds after set true.
-  * Responsible for displaying the alert message.
- */
+  /* 
+   * Resets the showAlert to false 2 seconds after set true.
+   * Responsible for displaying the alert message.
+  */
   useEffect(() => {
     if (showAlert) {
       const timeout = setTimeout(() => {
@@ -58,8 +59,8 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <Header position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} showAlert={showAlert} setShowAlert={setShowAlert}/>
-      {/*<NewsBar articles={articles}></NewsBar> To be fixed, breaks map and app*/}
+      <Header position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} showAlert={showAlert} setShowAlert={setShowAlert} />
+      {articles && <NewsBar articles={articles} />}
       <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -12,20 +12,12 @@ import NewsStory from "./newsStory.js";
  */
 
 export default function NewsBar(props) {
-    const {badgesData} = props;
+    const {articles} = props;
 
     return (
         <div className="newsbar">
-          <div className="badge-list">
-            {badgesData.map((badge, index) => (
-              <NewsStory
-                key={index}
-                image={badge.image}
-                description={badge.description}
-                author={badge.author}
-                date={badge.date}
-              />
-            ))}
+          <div className="articles-list">
+            <p> Test List </p>
           </div>
         </div>
       );
