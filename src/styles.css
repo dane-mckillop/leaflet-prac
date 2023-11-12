@@ -27,16 +27,18 @@
 }
 
 .header-container {
+  width: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
 }
 
 .btn-articles-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: left;
-  margin-right: 10px;
+  width: 20%;
+  display:flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 5px;
 }
 
 .btn-articles {
@@ -45,7 +47,15 @@
 }
 
 .search-container {
-  margin-left: 10px;
+  width: 60%;
+  margin-left: auto;
+  display: flex;
+  justify-content: left;
+}
+
+.search-button {
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .map-container {
@@ -81,9 +91,4 @@
   color: #f3e4d7;
   justify-content: center;
   padding: 4px;
-}
-
-.search-button {
-  margin-left: 4px;
-  margin-right: 4px;
 }
