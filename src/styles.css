@@ -78,7 +78,9 @@
 }
 
 .leaflet-container {
-  width: 100%;
+  width: 95%;
+  margin-bottom: 2.5%;
+  border-radius: 1rem;
 }
 
 .cluster-icon {
