@@ -16,7 +16,9 @@ export default function NewsBar(props) {
 
     return (
         <div className="newsbar">
-          
+          <h1> Title </h1>
+          <p> Description </p>
+          <p> Link </p>
         </div>
       );
 }
