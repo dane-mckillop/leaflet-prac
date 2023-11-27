@@ -12,13 +12,15 @@ import NewsStory from "./newsStory.js";
  */
 
 export default function NewsBar(props) {
-    const {articles} = props;
+  const { articles } = props;
 
-    return (
-        <div className="newsbar">
-          <h1> Title </h1>
-          <p> Description </p>
-          <p> Link </p>
-        </div>
-      );
+  return (
+    <div className="newsbar">
+      <label>
+        <h1> Title </h1>
+        <p> Description </p>
+        <p> Link </p>
+      </label>
+    </div>
+  );
 }

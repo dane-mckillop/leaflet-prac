@@ -63,7 +63,9 @@ export default function App() {
       <div className="header-outer-container">
         <Title />
         <Header position={position} setPosition={setPosition} city={city} setCity={setCity} country={country} setCountry={setCountry} articles={articles} setArticles={setArticles} showAlert={showAlert} setShowAlert={setShowAlert} />
-        {articles && <NewsBar articles={articles} />}
+      </div>
+      <div className="newsbar-container">
+      {articles && <NewsBar articles={articles} />}
       </div>
       <MapContainer center={position} zoom={baseZoom} ref={mapRef} className="map-container">
         <TileLayer

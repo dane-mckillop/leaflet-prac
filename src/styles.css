@@ -106,3 +106,27 @@
   justify-content: center;
   padding: 4px;
 }
+
+.newsbar {
+  position: absolute;
+  left: 0;
+  display: flex;
+  background-color: #fff;
+  border-color: #333;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  pointer-events: none;
+  border-right: 2px solid black;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem; 
+  z-index: 1100;
+  margin-left: 2.5%;
+  padding: 2%;
+  padding-right: 15%;
+}
+
+.newsstory {
+  pointer-events: auto;
+  z-index: 1150;
+}
